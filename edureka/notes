@@ -1,0 +1,34 @@
+linux is just a kernal and not itself an operating system
+through some implementation on top of linux creates an operating system
+
+why linux is faster than windows??
+
+job roles in linux administration:
+linux admin
+Support Engineering
+Network engineeting
+System Engineering
+Support Engineering
+things to do in linux admin
+installation and upgradation
+patching
+application support
+storage migrations
+improve stability & performance
+user Administration
+installing & configuring Servers/Services 
+backup & restore
+server Monitoring
+trobleshooting
+
+---------------------------------------
+file permissions 
+ACL(Access control lists)
+shell scripting
+patching in linux
+networiing in linux
+   SSH
+   SFTP
+   SCP
+
+

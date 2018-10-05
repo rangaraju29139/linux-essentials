@@ -1,0 +1,13 @@
+# by this command we can get the installer from the officatial apache friends 
+wget https://www.apachefriends.org/xampp-files/7.2.4/xampp-linux-x64-7.2.4-0-installer.run
+
+#next thing we need to do is to give the executable permission to the installer this can be done by 
+
+chmod +x xampp-linux-x64-7.2.4-0-installer.run
+
+#now the execution permission for the installer is obtained next thing we need to do is the run the installer by following command
+
+./xampp-linux-x64-7.2.4-0-installer.run
+
+#then we are good to go
+

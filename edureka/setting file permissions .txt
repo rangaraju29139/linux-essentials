@@ -1,0 +1,32 @@
+
+-rwxr-xr-x 1 rangaraju29139 rangaraju29139      8304 Oct  2 20:50 a.out
+drwxr-xr-x 3 rangaraju29139 rangaraju29139      4096 Oct  3 10:20 Desktop
+drwxr-xr-x 2 rangaraju29139 rangaraju29139      4096 Sep 29 15:40 Documents
+drwxr-xr-x 4 rangaraju29139 rangaraju29139      4096 Oct  2 20:44 Downloads
+-rw-r--r-- 1 rangaraju29139 rangaraju29139      8980 Sep 29 15:24 examples.deskt
+
+
+'-' means that particular person doesnt have that particular access
+d means directory
+
+setting the file permissions:
+chmod :: to change the access permissions of files and directory
+chown :: to change the owner of  files and directories
+chgrp :: to change the group owner ship of file and directories
+
+$chmod g+wx filename   //this gives the write and execute permissions to group members.
+$chmod u=rwx,o-wx filename  //this gives the read, write and execute permission to owners,and
+                        removes the write and execute ownership from other members.
+
+                        // o-wx   here - refers to the removing the permission
+$chown username filename   //changes the owner of the specified files
+$chown username:groupname filename //change the owner and group ownership of the specified files
+
+$chgrp groupname filename   //changes the group ownership of thee specified file.
+
+=======================================================================
+using ACL (Access control list)
+
+to enable acl
+first
+$cat
